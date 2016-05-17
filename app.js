@@ -3,7 +3,6 @@
  * Module dependencies.
  */
 var express = require('express')
-  , routes = require('./app_files/routes')
   , controller = require('./app_files/controllers/main');
 
 var app = module.exports = express.createServer();
@@ -31,6 +30,7 @@ app.configure('production', function(){
 
 app.get('/', controller.index);
 app.get('/details', controller.details);
+app.get('/review/new', controller.review);
 app.get('/about', controller.about);
 
 app.listen(3000, function(){

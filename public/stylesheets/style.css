@@ -1,9 +1,17 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  #background: url(../images/sand.jpg);
 }
 
 a {
   color: #00B7FF;
 }
 .nav-custom{ background-color:#abcdf5; }
+.samplediv1{ background-color:#FB6E52; }
+.samplediv2{ background-color:#5D9CEC; }
+.samplediv3{ background-color:#A0D468; }
+.hand-cur{cursor:pointer}
+.samplediv1:hover{ background-color:#E9573E; }
+.samplediv2:hover{ background-color:#4B89DC; }
+.samplediv3:hover{ background-color:#8CC051; }
